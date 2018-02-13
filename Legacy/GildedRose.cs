@@ -8,7 +8,7 @@ namespace Legacy
     {
         public static void updateQuality()
         {
-            var connString = "Host=localhost;Username=steveturley;Password=;Database=legacy";
+            var connString = "Host=localhost;Username=postgres;Password=example;Database=legacy;Port=5432";
 
             using (var conn = new NpgsqlConnection(connString))
             {

@@ -2,7 +2,7 @@ CREATE TABLE Items (
 name VARCHAR (50),
 sellin INT,
 quality INT
-)
+);
 
 
 INSERT INTO Items VALUES ('+5 Dexterity Vest', 10, 20);
